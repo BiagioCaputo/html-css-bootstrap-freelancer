@@ -44,3 +44,15 @@ h2{
     height:50px;
     border: 2px dashed red;
 }
+
+p{
+    min-height: 250px;
+    border: 2px dashed red;
+    
+}
+
+.buttom{
+    min-height: 80px;
+    border: 2px dashed red;
+
+}
