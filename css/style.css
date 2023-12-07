@@ -36,7 +36,7 @@ header{
 
 /* Grandezze varie per pannelli*/
 
-h2{
+h2 , h1 , h3{
     height:50px;
     border: 2px dashed red;
 }
@@ -75,4 +75,9 @@ p{
 .copyright{
     min-height: 30px;
     border: 2px dashed green;
+}
+
+.img-box{
+    border:2px dashed red;
+    min-height: 200px;
 }
