@@ -1,0 +1,20 @@
+header{
+    height: 120px;
+    background-color:#2C3E50;
+}
+
+
+.jumbotron{
+    background-color:#1ABC9C;
+    min-height: 800px;
+}
+
+.col{
+    border:2px dashed white;
+    background-color: red;
+    min-height: 100px;
+}
+
+.row{
+    border:2px dashed rebeccapurple;
+}
