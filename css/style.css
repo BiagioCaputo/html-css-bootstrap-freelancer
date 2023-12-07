@@ -10,7 +10,7 @@ header{
 
 
 .portfolio{
-    min-height: 900px;
+    
 }
 
 .about{
@@ -25,15 +25,13 @@ header{
     background-color:#2C3E50 ;
     min-height: 120px;
 }
+
 .col{
-    border:2px dashed white;
-    background-color: red;
+    border: 2px dashed red;
+    
     min-height: 100px;
 }
 
-.row{
-    border:2px dashed rebeccapurple;
-}
 
 
 /* Grandezze varie per pannelli*/
@@ -51,6 +49,7 @@ h2{
 p{
     min-height: 250px;
     border: 2px dashed red;
+    min-width: 50%;
     
 }
 
