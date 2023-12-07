@@ -56,3 +56,16 @@ p{
     border: 2px dashed red;
 
 }
+
+.contact-info{
+    min-height: 80px;
+    border: 2px dashed green;
+    margin-top:20px;
+}
+
+.separator{
+    height: 2px;
+    background-color: gray;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
