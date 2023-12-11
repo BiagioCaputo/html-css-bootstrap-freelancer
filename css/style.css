@@ -14,6 +14,7 @@ img{
 }
 
 /*Utilities*/
+
 .line-star{
     width:150px;
     height: 10px;
@@ -28,74 +29,22 @@ img{
     background-color: #2C3E50;
 }
 
+
+/*Header*/
+
 header{
     height: 120px;
     background-color:#2C3E50;
 }
 
 
+
+/*Jumbotron*/
+
 .jumbotron{
     background-color:#1ABC9C;
 }
 
-
-.portfolio{
-    
-}
-
-.about{
-    background-color: aquamarine; 
-}
-
-.upper-footer{
-    background-color:#3A546D ;
-}
-
-.bottom-footer{
-    background-color:#2C3E50 ;
-    min-height: 120px;
-}
-
-.col{
-    border: 2px dashed red;
-    
-    min-height: 100px;
-}
-
-
-
-/* Grandezze varie per pannelli*/
-
-
-
-p{
-    min-height: 250px;
-    border: 2px dashed red;
-    min-width: 50%;
-    
-}
-
-.buttom{
-    min-height: 60px;
-    border: 2px dashed red;
-    width: 150px;
-
-}
-
-.contact-info{
-    min-height: 80px;
-    border: 2px dashed green;
-    margin-top:20px;
-}
-
-.copyright{
-    min-height: 30px;
-    border: 2px dashed green;
-}
-
-
-
-/*Jumbotron*/
 
 .img-box{
     max-width: 200px;
@@ -107,4 +56,49 @@ p{
 
 .portfolio h2{
     color:#2C3E50;
+}
+
+.img-portfolio-box img{
+    border-radius: 20px;
+}
+
+/*About*/
+
+.about{
+    background-color:#1ABC9C; 
+}
+
+
+/*Contact me*/
+.contact{
+    color:#2C3E50;
+}
+.contact .form-control{
+    padding-left: 0;
+    border-radius: 0;
+    border-width: 0 0 1px 0;
+}
+
+.contact .form-control::placeholder{
+    color:#2C3E50;
+}
+/*Footer*/
+
+footer{
+    background-color:#3A546D;
+}
+
+.upper-footer{
+    background-color:#3A546D ;
+}
+
+.bottom-footer{
+    background-color:#2C3E50 ;
+    min-height: 120px;
+}
+
+.icons-box > *{
+    border:1px solid white;
+    border-radius: 50%;
+    padding: 15px;
 }
