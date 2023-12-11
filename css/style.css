@@ -1,3 +1,33 @@
+/* Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+/*Generals*/
+img{
+    max-width: 100%;
+    display: block;
+}
+
+/*Utilities*/
+.line-star{
+    width:150px;
+    height: 10px;
+    border-radius: 20px;
+}
+
+.white-l{
+    background-color: white;
+}
+
+.blu-l{
+    background-color: #2C3E50;
+}
+
 header{
     height: 120px;
     background-color:#2C3E50;
@@ -36,19 +66,7 @@ header{
 
 /* Grandezze varie per pannelli*/
 
-h2 , h1 , h3{
-    height:50px;
-    border: 2px dashed red;
-    max-width: 300px;
-    margin: 10px auto;
-}
 
-.star-icon{
-    height:50px;
-    border: 2px dashed red;
-    max-width: 300px;
-    margin: 10px auto;
-}
 
 p{
     min-height: 250px;
@@ -70,21 +88,23 @@ p{
     margin-top:20px;
 }
 
-.separator{
-    height: 2px;
-    background-color: gray;
-    margin-top: 100px;
-    margin-bottom: 20px;
-}
-
 .copyright{
     min-height: 30px;
     border: 2px dashed green;
 }
 
+
+
+/*Jumbotron*/
+
 .img-box{
-    border:2px dashed red;
-    min-height: 200px;
     max-width: 200px;
-    margin: 0 auto;
+    max-height: 200px;
+}
+
+
+/*Portfolio*/
+
+.portfolio h2{
+    color:#2C3E50;
 }
