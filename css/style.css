@@ -32,9 +32,9 @@ img{
 
 /*Header*/
 
-header{
-    height: 120px;
-    background-color:#2C3E50;
+
+.bg-dark-blue{
+    background-color: #2C3E50;
 }
 
 
